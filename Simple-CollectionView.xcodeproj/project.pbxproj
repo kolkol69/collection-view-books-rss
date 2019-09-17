@@ -12,6 +12,10 @@
 		05CECED123318B89002B75E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CECECF23318B89002B75E6 /* Main.storyboard */; };
 		05CECED323318B8C002B75E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CECED223318B8C002B75E6 /* Assets.xcassets */; };
 		05CECED623318B8C002B75E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CECED423318B8C002B75E6 /* LaunchScreen.storyboard */; };
+		05CECEDE23318DB7002B75E6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CECEDD23318DB7002B75E6 /* CollectionViewCell.swift */; };
+		05CECEE02331904C002B75E6 /* Audiobook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CECEDF2331904C002B75E6 /* Audiobook.swift */; };
+		05CECEE2233191A4002B75E6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CECEE1233191A4002B75E6 /* APIClient.swift */; };
+		05CECEE423319204002B75E6 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CECEE323319204002B75E6 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		05CECED223318B8C002B75E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05CECED523318B8C002B75E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05CECED723318B8C002B75E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CECEDD23318DB7002B75E6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		05CECEDF2331904C002B75E6 /* Audiobook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audiobook.swift; sourceTree = "<group>"; };
+		05CECEE1233191A4002B75E6 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		05CECEE323319204002B75E6 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		05CECECA23318B89002B75E6 /* Simple-CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				05CECEE1233191A4002B75E6 /* APIClient.swift */,
 				05CECECB23318B89002B75E6 /* AppDelegate.swift */,
 				05CECECD23318B89002B75E6 /* ViewController.swift */,
+				05CECEDD23318DB7002B75E6 /* CollectionViewCell.swift */,
 				05CECECF23318B89002B75E6 /* Main.storyboard */,
+				05CECEDF2331904C002B75E6 /* Audiobook.swift */,
+				05CECEE323319204002B75E6 /* DataStore.swift */,
 				05CECED223318B8C002B75E6 /* Assets.xcassets */,
 				05CECED423318B8C002B75E6 /* LaunchScreen.storyboard */,
 				05CECED723318B8C002B75E6 /* Info.plist */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				05CECECE23318B89002B75E6 /* ViewController.swift in Sources */,
+				05CECEE423319204002B75E6 /* DataStore.swift in Sources */,
 				05CECECC23318B89002B75E6 /* AppDelegate.swift in Sources */,
+				05CECEDE23318DB7002B75E6 /* CollectionViewCell.swift in Sources */,
+				05CECEE2233191A4002B75E6 /* APIClient.swift in Sources */,
+				05CECEE02331904C002B75E6 /* Audiobook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
